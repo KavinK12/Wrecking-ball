@@ -18,6 +18,7 @@ push();
  rotate(angle);
  fill("grey");
  stroke("green");
+ strokeWeight(4);
  rectMode(CENTER);
  rect(0,0,this.width,this.height);
 pop();

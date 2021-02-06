@@ -20,5 +20,6 @@ class Wrecking{
  stroke("blue");
  ellipseMode(RADIUS);
  ellipse(0,0,this.width,this.height);
+ pop();
  }
 }

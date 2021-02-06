@@ -14,12 +14,12 @@ length: 250
 
  display() {
  var pointA = this.sling.bodyA.position;
- var pointB = this.sling.pointB;
+ var pointB = this.pointB;
  push();
  stroke("brown")
- strokeWeight(3);
+ strokeWeight(10); 
  line(pointA.x, pointA.y, pointB.x, pointB.y);
-pop();
+ pop();
  }
 
 
